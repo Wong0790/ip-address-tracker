@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply block text-[2rem] font-medium text-white text-center font-rubik;
+}
+
+.header-wrapper {
+  @apply flex flex-col w-full pt-8 h-[17.5rem]  bg-cover bg-no-repeat bg-[url('./assets/images/pattern-bg-desktop.png')];
+}
+
+.input-wrapper {
+  @apply relative w-11/12 mt-7 md:max-w-[34rem] md:w-full mx-auto;
+}
+
+.ip-input {
+  @apply h-fit py-4 px-6 rounded-2xl outline-none w-full;
+}
+
+.test {
+  @apply absolute top-0 right-0 z-40 text-white bg-black w-[3.625rem] h-[3.625rem] rounded-r-2xl;
+}
+
+.test svg {
+  @apply ml-6;
+}
+
+.ip-info-wrapper {
+  @apply absolute top-56 left-1/2 transform -translate-x-1/2 bg-white px-6 py-7 lg:px-8 lg:py-9 z-40 rounded-2xl;
+}
+
+.content-wrapper {
+  @apply flex flex-col lg:flex-row flex-nowrap gap-3 lg:gap-8 lg:divide-x divide-solid;
+}
+
+.section-wrapper {
+  @apply min-w-[200px] text-center lg:text-left;
+}
+
+.section-wrapper span {
+  @apply uppercase text-xs font-medium text-[#969696] leading-8 font-rubik;
+}
+
+.section-wrapper h2 {
+  @apply text-[1.625rem] font-medium text-[#2B2B2B] leading-7 font-rubik;
+}
+
+.section-wrapper:not(:first-child) {
+  @apply pl-0 lg:pl-8;
+}
+
+#map {
+  height: calc(100vh - 17.5rem);
+  z-index: 10;
+}
