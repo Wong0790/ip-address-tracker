@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 h1 {
-  @apply block text-[2rem] font-medium text-white text-center font-rubik;
+  @apply block text-[1.625rem] lg:text-[2rem] font-medium text-white text-center font-rubik;
 }
 
 .header-wrapper {
-  @apply flex flex-col w-full pt-8 h-[17.5rem]  bg-cover bg-no-repeat bg-[url('./assets/images/pattern-bg-desktop.png')];
+  @apply flex flex-col w-full pt-6 lg:pt-8 h-[17.5rem]  bg-cover bg-no-repeat bg-[url('./assets/images/pattern-bg-desktop.png')];
 }
 
 .input-wrapper {
@@ -27,11 +27,11 @@ h1 {
 }
 
 .ip-info-wrapper {
-  @apply absolute top-56 left-1/2 transform -translate-x-1/2 bg-white px-6 py-7 lg:px-8 lg:py-9 z-40 rounded-2xl;
+  @apply absolute top-44 lg:top-56 left-1/2 transform -translate-x-1/2 bg-white px-4 py-2 lg:px-8 lg:py-9 z-40 rounded-2xl;
 }
 
 .content-wrapper {
-  @apply flex flex-col lg:flex-row flex-nowrap gap-3 lg:gap-8 lg:divide-x divide-solid;
+  @apply flex flex-col lg:flex-row flex-nowrap gap-1 lg:gap-8 lg:divide-x divide-solid;
 }
 
 .section-wrapper {
@@ -39,11 +39,11 @@ h1 {
 }
 
 .section-wrapper span {
-  @apply uppercase text-xs font-medium text-[#969696] leading-8 font-rubik;
+  @apply uppercase text-[0.625rem] lg:text-xs font-medium text-[#969696] leading-8 font-rubik;
 }
 
 .section-wrapper h2 {
-  @apply text-[1.625rem] font-medium text-[#2B2B2B] leading-7 font-rubik;
+  @apply text-xl lg:text-[1.625rem] font-medium text-[#2B2B2B] leading-7 font-rubik;
 }
 
 .section-wrapper:not(:first-child) {
