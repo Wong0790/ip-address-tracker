@@ -54,7 +54,7 @@ onMounted(() => {
           placeholder="Search for any IP address or domain"
           v-model="ipAddress"
         />
-        <button type="button" class="find-btn" @click="getIPInfo(ipAddress)">
+        <button title="find" class="find-btn" @click="getIPInfo(ipAddress)">
           <IconArrow />
         </button>
       </div>
