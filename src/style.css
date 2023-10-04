@@ -18,11 +18,11 @@ h1 {
   @apply h-fit py-4 px-6 rounded-2xl outline-none w-full;
 }
 
-.test {
+.find-btn {
   @apply absolute top-0 right-0 z-40 text-white bg-black w-[3.625rem] h-[3.625rem] rounded-r-2xl;
 }
 
-.test svg {
+.find-btn svg {
   @apply ml-6;
 }
 
