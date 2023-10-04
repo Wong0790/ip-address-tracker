@@ -1,7 +1,7 @@
 <script setup>
-import AddressTRacker from "./components/AddressTRacker.vue";
+import AddressTRacker from "./components/AddressTracker.vue";
 </script>
 
 <template>
-  <AddressTRacker />
+  <AddressTracker />
 </template>

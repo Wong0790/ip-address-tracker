@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, onMounted } from "vue";
+import { ref, onMounted } from "vue";
 import IPInfo from "./IPInfo.vue";
 import IconArrow from "./IconArrow.vue";
 import InteractiveMap from "./InteractiveMap.vue";
